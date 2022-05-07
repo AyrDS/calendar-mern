@@ -9,15 +9,15 @@ const LoginScreen = () => {
     const dispatch = useDispatch();
 
     const [formLoginValues, handleLoginChange] = useForm({
-        logEmail: 'ayrtonds97@gmail.com',
-        logPassword: '123456'
+        logEmail: '',
+        logPassword: ''
     });
 
     const [formRegisterValues, handleRegisterChange] = useForm({
-        regName: 'Carina',
-        regEmail: 'carina@gmail.com',
-        regPassword: '123456',
-        regPassword2: '123456'
+        regName: '',
+        regEmail: '',
+        regPassword: '',
+        regPassword2: ''
     });
 
     const { logEmail, logPassword } = formLoginValues;
